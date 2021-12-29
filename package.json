@@ -1,0 +1,17 @@
+{
+  "name": "class-hook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "serve": "esbuild --servedir=src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.14.9",
+    "typescript": "^4.5.4"
+  }
+}
